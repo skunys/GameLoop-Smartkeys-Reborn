@@ -327,7 +327,7 @@ py -m pip install pyinstaller
 From the project directory, build the EXE with:
 
 ```bat
-py -m PyInstaller --noconfirm --clean --onefile --windowed --icon "smartkeys.ico" --name "GameLoop Smartkeys Reborn" skr.py
+py -m PyInstaller --noconfirm --clean --onefile --windowed --icon "assets\smartkeys.ico" --name "GameLoop Smartkeys Reborn" src\skr.py
 ```
 
 The resulting executable will be created in:
