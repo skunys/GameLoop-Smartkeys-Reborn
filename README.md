@@ -338,4 +338,267 @@ dist\
 
 The executable is:
 
-``
+```text
+GameLoop Smartkeys Reborn.exe
+```
+
+---
+
+# Building the Installer
+
+The project uses **Inno Setup** to create the Windows installer.
+
+The installer script is:
+
+```text
+GameLoop Smartkeys Reborn.iss
+```
+
+The installer packages:
+
+```text
+GameLoop Smartkeys Reborn.exe
+```
+
+and creates the Start Menu and optional desktop shortcuts.
+
+The final installer is:
+
+```text
+GameLoop Smartkeys Reborn Setup.exe
+```
+
+---
+
+# Project Structure
+
+The source repository is organized around the application source, artwork, and installer configuration.
+
+```text
+GameLoop-Smartkeys-Reborn/
+│
+├── README.md
+│
+├── src/
+│   └── skr.py
+│
+├── assets/
+│   └── smartkeys.ico
+│
+└── installer/
+    └── GameLoop Smartkeys Reborn.iss
+```
+
+Build-generated files such as the PyInstaller `build` and `dist` directories do not need to be stored in the source repository.
+
+---
+
+# Troubleshooting
+
+## F does nothing
+
+Check:
+
+1. The application is **ARMED**.
+2. GameLoop is the focused window.
+3. **Require GameLoop focus** is enabled if you want focus protection.
+4. The output sequence contains at least one key.
+5. Try pressing F12 and then ARM again.
+
+---
+
+## F works in another application
+
+Make sure:
+
+```text
+Require GameLoop focus
+```
+
+is enabled.
+
+When enabled, the F hook is installed only while the recognized GameLoop/emulator window is focused.
+
+---
+
+## The application does not start
+
+If running from source, make sure the required modules are installed:
+
+```bat
+py -m pip install keyboard psutil
+```
+
+Then try:
+
+```bat
+py skr.py
+```
+
+---
+
+## Emergency stop
+
+Press:
+
+```text
+F12
+```
+
+The application should change to:
+
+```text
+DISARMED
+```
+
+---
+
+# Source Code
+
+The main application source is:
+
+```text
+src/skr.py
+```
+
+The application is written in Python using:
+
+* Tkinter
+* ctypes
+* keyboard
+* psutil
+
+---
+
+# Scope
+
+GameLoop Smartkeys Reborn is designed specifically for keyboard-to-keyboard automation.
+
+It does not use:
+
+* ADB commands
+* Mouse coordinates
+* Touch coordinates
+* Screen-coordinate clicking
+* Screen-coordinate automation
+* Background mouse or touch control
+
+The application sends keyboard keys through the Windows keyboard input mechanism.
+
+## Security & Software Scope
+
+GameLoop Smartkeys Reborn does **not** contain or intentionally use:
+
+* Malware
+* Viruses
+* Spyware
+* Keyloggers
+* Credential-stealing functionality
+* Remote-control functionality
+* Harmful payloads
+
+The application is intended to provide a simple keyboard automation tool for the community.
+
+---
+
+# Community Build
+
+Version **1.0** is a community-requested build created in response to requests for a lightweight keyboard sequence tool for GameLoop.
+
+The project is provided **free to use**.
+
+### Version 1.0
+
+```text
+GameLoop Smartkeys Reborn
+Version 1.0
+Free to use
+Community-requested build
+Created by Skuny
+```
+
+Users are encouraged to review the source code and build the application themselves if they prefer.
+
+---
+
+# Credits
+
+Created by:
+
+**Skuny**
+
+Big shoutout to **KryptonPsycho** for assisting me in making this project.
+
+Project:
+
+**GameLoop Smartkeys Reborn**
+
+---
+
+# Version
+
+Current version:
+
+```text
+1.0
+```
+
+Application name:
+
+```text
+GameLoop Smartkeys Reborn by Skuny
+```
+
+---
+
+# License
+
+License information will be added to this repository separately.
+
+---
+
+# Disclaimer
+
+GameLoop Smartkeys Reborn is a keyboard automation utility and does not modify, inject into, or alter game data or game files.
+
+The application does not directly modify gameplay data, game memory, game files, or game assets. It operates by sending keyboard input through the Windows keyboard input mechanism.
+
+We hope this project will not be blocked or flagged by **TAC or other anti-cheat systems**, as Version 1.0 does not intentionally interact with or modify the game's internal data.
+
+However, anti-cheat systems and game policies may change at any time. No guarantee is made that the application will be permitted by any particular game, emulator, or anti-cheat system.
+
+Use this software responsibly and make sure its use complies with the rules and terms of the games, emulators, and services with which you use it.
+
+---
+
+# Final Note
+
+Hi everyone,
+
+Thanks for taking the time to read all of this.
+
+I was honestly at my breaking point when I was trying to fix the keymaps in the GameLoop CODM Beta versions **1.0.56 and 1.0.57**. I spent a lot of time trying to figure out why things weren't working properly, and I got pretty frustrated.
+
+I started digging deeper into how everything worked. I reverse-engineered parts of `config.db`, looked into `gameloopemulator.exe`, ADB, and various Android sub-files, and used **Ghidra** to inspect and understand the data and structures I was dealing with.
+
+Just when I was about to give up, the idea came to me to build a tool that could handle the key sequences myself.
+
+That eventually became **GameLoop Smartkeys Reborn**.
+
+This is **Version 1.0**, so it is intentionally simple. There is no complicated preset system or massive collection of pre-made configurations. You can adjust the key sequence yourself depending on your keymap and the game mode you're using.
+
+The hierarchy is simple: **the buttons at the top run first, followed by the buttons underneath them**. You can add, remove, and reorder them however you want.
+
+I'm also including my **BR.txt** keymap as a reference for my CODM Battle Royale 3rd-person setup.
+
+I don't work for **GameLoop, Tencent, or TAC**. I'm just a small creator trying to build something useful for the community, just like many of you.
+
+I hope I can get some feedback, suggestions, and support from the community as the project develops.
+
+I also hope GameLoop/TAC can eventually bring the emulator back to its former stability and continue improving it. While working on this project, I came across a lot of broken, inconsistent, or messy parts of the emulator, and I really hope the developers continue improving them.
+
+Most importantly, I hope this project can remain useful for **open GameLoop use** and that the community can continue building and experimenting with tools like this.
+
+Have a great day, everyone.
+
+**STAY FROSTY!** 🥶
