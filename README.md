@@ -139,7 +139,7 @@ py -m pip install keyboard psutil
 Then run:
 
 ```bat
-py skr.py
+py src\skr.py
 ```
 
 ---
