@@ -2,102 +2,131 @@ GameLoop Smartkeys Reborn — Skuny Community License v1.0
 
 Copyright © 2026 Skuny
 Project: GameLoop Smartkeys Reborn
-Author: Skuny
+Original Author: Skuny
 
 
-1. PURPOSE
+1. PERMISSION
 
-GameLoop Smartkeys Reborn is a keyboard automation utility created by Skuny.
-
-This license is intended to allow people to use and modify the project for personal, testing, educational, and community purposes while preserving the original project identity, authorship, and branding.
+Permission is hereby granted to any person to use, copy, modify, publish, distribute, and create derivative works from GameLoop Smartkeys Reborn, including for personal, educational, community, and commercial purposes, subject to the conditions of this license.
 
 2. FREE USE
 
-You may use GameLoop Smartkeys Reborn free of charge for:
+GameLoop Smartkeys Reborn may be used free of charge by anyone.
+
+This includes:
 
 * Personal use
 * Testing
-* Educational purposes
-* Non-commercial community use
-* Personal modifications and experiments
+* Educational use
+* Community projects
+* Private projects
+* Public projects
+* Commercial projects
+* Modified versions
+* Integration into other software
 
-No payment is required for these permitted uses.
+No permission or payment is required for these uses, provided that the terms of this license are respected.
 
 3. MODIFICATION
 
-You may modify the source code for your own personal, testing, educational, or community purposes.
+Anyone may modify the source code and create derivative versions of GameLoop Smartkeys Reborn.
 
-You may create private modified versions for your own use.
+Modified versions may be used privately or publicly.
 
-Modifications must not remove or intentionally obscure the original copyright notice, author attribution, or project identity.
+You may add features, remove features, change the interface, improve compatibility, fix bugs, or otherwise modify the software.
 
-4. NO REBRANDING OR FALSE ATTRIBUTION
+4. REDISTRIBUTION
 
-You may not take the original project, rename it, remove the original author information, and present it as a completely independent project created by another person.
+Anyone may redistribute the original or modified versions of GameLoop Smartkeys Reborn.
 
-You may not falsely claim that you are the original creator of GameLoop Smartkeys Reborn.
+Redistribution may be performed through:
 
-The name "GameLoop Smartkeys Reborn" and the associated project identity remain associated with the original project created by Skuny.
+* GitHub
+* Other code-hosting services
+* Websites
+* Forums
+* Software collections
+* Personal projects
+* Commercial products
+* Other distribution methods
 
-5. REDISTRIBUTION
+Redistribution does not require prior permission from Skuny, provided that the copyright and attribution requirements of this license are respected.
 
-Public redistribution of the original project or a modified version requires prior permission from Skuny unless otherwise explicitly authorized in writing.
+5. AUTHORSHIP AND ATTRIBUTION
 
-This includes, but is not limited to:
+The original project was created by Skuny.
 
-* Republishing the source code as another public project
-* Uploading modified versions to another public repository
-* Publishing compiled versions based on this project
-* Packaging this project as part of another publicly distributed software product
-* Redistributing the project while removing or changing its original authorship information
+The following attribution must remain with the original project and its source distribution:
 
-Private modifications that are not publicly redistributed are permitted under Section 3.
+"GameLoop Smartkeys Reborn — Created by Skuny"
 
-6. COMMERCIAL USE
+The original copyright notice and author attribution must not be intentionally removed or obscured from the original project.
 
-Commercial use, commercial redistribution, paid distribution, bundling into a paid product, or monetization of GameLoop Smartkeys Reborn or a derivative version requires prior written permission from Skuny.
+You may modify the software, but you may not falsely claim that you created the original GameLoop Smartkeys Reborn project.
 
-Separate commercial licensing terms may be negotiated with the author.
+6. MODIFIED VERSIONS
 
-7. GAMELOOP / TENCENT / TAC
+You may publish modified versions of GameLoop Smartkeys Reborn.
+
+If you distribute a modified version publicly, you must clearly indicate that the version has been modified.
+
+For example:
+
+"Based on GameLoop Smartkeys Reborn by Skuny."
+
+or:
+
+"Modified from GameLoop Smartkeys Reborn, originally created by Skuny."
+
+You may give your modified version a different name, provided that you do not falsely represent yourself as the original author of GameLoop Smartkeys Reborn.
+
+7. PROJECT NAME AND BRANDING
+
+The name "GameLoop Smartkeys Reborn" identifies the original project created by Skuny.
+
+Others may refer to the original project by its name when describing, using, modifying, or redistributing it.
+
+Modified projects may use their own names.
+
+No person may falsely represent a modified project as the official original release created or maintained by Skuny without authorization.
+
+8. GAMELOOP / TENCENT / TAC
 
 GameLoop Smartkeys Reborn is an independent community project.
 
-This project is not officially affiliated with, endorsed by, sponsored by, or developed by Tencent, GameLoop, or Tencent Anti-Cheat (TAC), unless explicitly stated otherwise by the relevant rights holder.
+This project is not officially affiliated with, endorsed by, sponsored by, or developed by Tencent, GameLoop, or Tencent Anti-Cheat (TAC), unless explicitly stated by the relevant rights holder.
 
-Tencent, GameLoop, or other relevant rights holders may contact the author regarding integration, compatibility, fixes, licensing, or other cooperation.
+GameLoop, Tencent, or other relevant rights holders may use, modify, distribute, integrate, or otherwise work with this project under the same permissions granted to everyone else by this license.
 
-8. PROJECT NAME AND BRANDING
-
-The original project name, author attribution, documentation, logos, icons, and other branding associated with GameLoop Smartkeys Reborn must not be used in a misleading manner.
-
-You may reference the original project when describing modifications or derivative work, provided that the relationship to the original project is clearly stated and the original authorship is not falsely claimed.
+Separate agreements may be made with Skuny for official integration, cooperation, support, development, or other purposes, but no exclusive rights are granted by this license.
 
 9. CONTRIBUTIONS
 
-Contributions may be submitted to the project.
+Contributions are welcome.
 
-By submitting a contribution, you confirm that you have the right to submit it and that it does not knowingly violate the rights of another person or organization.
+By submitting a contribution, you confirm that you have the right to submit it and that the contribution does not knowingly violate another person's rights.
 
-Unless separately agreed in writing, contributions become part of the project under the terms applicable to the project.
+Contributions submitted to the project may be used, modified, distributed, and incorporated into the project under the terms of this license unless a separate written agreement states otherwise.
 
 10. THIRD-PARTY COMPONENTS
 
 This license applies only to material created and owned by Skuny as part of GameLoop Smartkeys Reborn.
 
-Third-party libraries, tools, dependencies, trademarks, software, and other materials remain subject to their respective licenses and terms.
+Third-party libraries, tools, dependencies, trademarks, software, icons, assets, and other materials remain subject to their respective licenses and terms.
+
+Nothing in this license grants rights to third-party intellectual property beyond what is permitted by the applicable third-party license.
 
 11. NO WARRANTY
 
-GameLoop Smartkeys Reborn is provided "AS IS" and without warranties of any kind, express or implied, to the maximum extent permitted by applicable law.
+GameLoop Smartkeys Reborn is provided "AS IS", without warranties of any kind, express or implied, to the maximum extent permitted by applicable law.
 
 The author does not guarantee that the software will work with every version of GameLoop, Tencent software, Android emulator, game, operating system, or future software update.
 
 12. GAME AND EMULATOR RULES
 
-Users are responsible for determining whether use of the software is permitted under the rules, terms of service, policies, anti-cheat systems, or other requirements applicable to the games, emulators, platforms, or services they use.
+Users are responsible for determining whether their use of the software is permitted under the rules, terms of service, policies, anti-cheat systems, or other requirements applicable to the games, emulators, platforms, or services they use.
 
-The author does not authorize users to violate those rules.
+This license does not authorize anyone to violate those rules.
 
 13. LIMITATION OF LIABILITY
 
@@ -105,23 +134,31 @@ To the maximum extent permitted by applicable law, the author shall not be respo
 
 14. TERMINATION
 
-Permission granted under this license automatically terminates if you materially violate the terms of this license.
+If a person violates the attribution or other mandatory conditions of this license, the permissions granted to that person under this license may terminate to the extent permitted by applicable law.
 
-Upon termination, you must stop using and distributing the project or derivative versions in ways that are no longer permitted by this license.
+Permissions may be restored if the violation is corrected.
 
-15. OWNERSHIP AND RESERVED RIGHTS
+Users who comply with this license retain the permissions granted by it.
 
-Copyright and other rights in the original work remain with Skuny except where rights are explicitly granted under this license or belong to third parties.
+15. OWNERSHIP
 
-Nothing in this license transfers ownership of the original project to another person.
+Copyright in the original GameLoop Smartkeys Reborn work remains with Skuny.
 
-16. PERMISSION REQUESTS
+This license grants permissions to use, modify, and distribute the work but does not transfer ownership of the original work or its copyright to another person.
 
-Requests for public redistribution, commercial use, branding arrangements, major derivative projects, integration, or other uses requiring permission should be directed to the project author, Skuny.
+16. NO FALSE ENDORSEMENT
 
-17. ACCEPTANCE
+You may not falsely state or imply that Skuny endorses, sponsors, develops, maintains, or officially supports a modified or redistributed version of GameLoop Smartkeys Reborn unless Skuny has explicitly agreed to such a statement.
 
-By using, modifying, or distributing GameLoop Smartkeys Reborn, you agree to comply with the applicable terms of this license.
+17. PATENTS
+
+This license does not grant any patent rights except those that may be required for the use of the copyright-protected work as expressly permitted by this license.
+
+Any patent rights owned by third parties remain subject to their respective rights and licenses.
+
+18. ACCEPTANCE
+
+By using, modifying, copying, publishing, or distributing GameLoop Smartkeys Reborn, you agree to comply with the applicable terms of this license.
 
 Version 1.0
 2026
