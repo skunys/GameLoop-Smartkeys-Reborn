@@ -602,3 +602,8 @@ Most importantly, I hope this project can remain useful for **open GameLoop use*
 Have a great day, everyone.
 
 **STAY FROSTY!** 🥶
+## License
+
+GameLoop Smartkeys Reborn is provided under the **Skuny Community License v1.0**.
+
+See the full license here: [LICENSE](LICENSE).
