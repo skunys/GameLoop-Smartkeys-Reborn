@@ -432,7 +432,7 @@ py -m pip install keyboard psutil
 Then try:
 
 ```bat
-py skr.py
+py src\skr.py
 ```
 
 ---
@@ -553,7 +553,7 @@ GameLoop Smartkeys Reborn by Skuny
 
 # License
 
-License information will be added to this repository separately.
+GameLoop Smartkeys Reborn is provided under the Skuny Community License v1.0.
 
 ---
 
